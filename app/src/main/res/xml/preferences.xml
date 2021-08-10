@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general_sett"
+        android:key="general_settings">
+        <CheckBoxPreference
+            android:title="@string/enable_notif"
+            android:key="notif_status"
+            android:summaryOff="@string/en_notif_off"
+            android:summaryOn="@string/en_notif_on"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/enable_silen"
+            android:key="silen_status"
+            android:summary="@string/en_slnt_sum"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cal_sett"
+        android:key="calendar">
+        <ListPreference
+            android:title="@string/week_start"
+            android:entries="@array/first_week_day"
+            android:entryValues="@array/first_week_day_values"
+            android:dialogTitle="@string/choose_day" android:key="firstdayweek" android:summary="@string/choose_day_sum"
+            android:defaultValue="DEFAULT"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prayer_times"
+        android:title="@string/prayer_sett">
+
+        <ListPreference
+            android:title="@string/mazhab"
+            android:dialogTitle="@string/maz_dialg"
+            android:entryValues="@array/mazhab_values"
+            android:entries="@array/mazhab"
+            android:summary="@string/maz_sum"
+            android:defaultValue="shafai"
+            android:key="mazhab"/>
+
+        <ListPreference
+            android:entryValues="@array/prayer_calc_methods_values"
+            android:entries="@array/prayer_calc_methods"
+            android:title="@string/calc_method"
+            android:defaultValue="MWL"
+            android:summary="@string/calc_method_sum"
+            android:dialogTitle="@string/calc_meth_dlog"
+            android:key="prayer_calc_method"/>
+
+        <ListPreference
+            android:entryValues="@array/higher_lat_method_values"
+            android:entries="@array/higher_lat_method"
+            android:title="@string/high_lat_calc"
+            android:summary="@string/high_lat_sum"
+            android:defaultValue="AngleBased"
+            android:key="hi_lat_method"/>
+
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

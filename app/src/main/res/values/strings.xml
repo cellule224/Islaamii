@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Islaamii</string>
+    <string name="addmod_app_id">ca-app-pub-1324658631150169~6139630735</string>
+
+    <string name="today_is">Today is: </string>
+
+
+    <!-- Preference Titles -->
+    <string name="general_sett">General app settings</string>
+    <string name="enable_notif">Enable Azaan</string>
+    <string name="en_notif_on">Prayer notifications are ON</string>
+    <string name="en_notif_off">Prayer notifications are OFF</string>
+
+    <string name="enable_silen">Enabled Silencer (beta)</string>
+    <string name="en_slnt_sum">Put phone on SILENT for 30 min after Azan</string>
+
+    <string name="cal_sett">Calendar Settings</string>
+    <string name="week_start">First Day of the Week</string>
+    <string name="choose_day">Choose a day</string>
+    <string name="choose_day_sum">Set the starting day of the week</string>
+
+
+    <string name="prayer_sett">Prayer Times Settings</string>
+
+    <string name="calc_method">Prayer calculation method</string>
+    <string name="calc_method_sum">The Convention to use for prayer times calculations</string>
+    <string name="calc_meth_dlog">Select a calculation method</string>
+    <string name="high_lat_calc">Higher lalitude calculation method"</string>
+    <string name="high_lat_sum">calculations for countries with higher latitude</string>
+
+    <array name="first_week_day">
+        <item name="DEFAULT">Default</item>
+        <item name="SUNDAY">Sunday</item>
+        <item name="MONDAY">Monday</item>
+    </array>
+
+    <string-array name="first_week_day_values">
+        <item name="DEFAULT">DEFAULT</item>
+        <item name="SUNDAY">SUNDAY</item>
+        <item name="MONDAY">MONDAY</item>
+    </string-array>
+
+    <string name="mazhab">Mazhab</string>
+    <string name="maz_dialg">Choose your Mazhab</string>
+    <string name="maz_sum">Choose your mazhab for calculating Asr prayer</string>
+
+    <array name="mazhab">
+        <item>Shafa\'i, (Standard)</item>
+        <item>Hanafii</item>
+    </array>
+    <array name="mazhab_values">
+        <item>shafai</item>
+        <item>hanafii</item>
+    </array>
+    <array name="prayer_calc_methods">
+        <item>Muslim World League</item>
+        <item>Islamic Society of North America</item>
+        <item>Egyptian General Authority of Survey</item>
+        <item>Umm al-Qura University, Makkah</item>
+        <item>University of Islamic Sciences, Karachi</item>
+        <item>Institute of Geophysics, University of Tehran</item>
+        <item>Shia Ithna Ashari (Ja`fari)</item>
+    </array>
+    <string-array name="prayer_calc_methods_values">
+        <item>MWL</item>
+        <item>ISNA</item>
+        <item>Egypt</item>
+        <item>Makkah</item>
+        <item>Karachi</item>
+        <item>Tehran</item>
+        <item>Jafari</item>
+    </string-array>
+
+    <array name="higher_lat_method">
+        <item>No adjustments</item>
+        <item>The middle of the night method</item>
+        <item>The 1/7th of the night method</item>
+        <item>The angle-based method</item>
+    </array>
+    <string-array name="higher_lat_method_values">
+        <item>None</item>
+        <item>NightMiddle</item>
+        <item>OneSeventh</item>
+        <item>AngleBased</item>
+    </string-array>
+
+    <!-- Prayer page -->
+
+    <string name="notif_title">It is about time to pray</string>
+    <string name="notif_text">May Allah accept our devotion</string>
+
+    <string name="location_off_dialog_title">Location is not enabled</string>
+    <string name="location_off_dialog_text">make sure \'Access to my location\' is enabled. no need for GPS to be on</string>
+    <string name="location_dialog_pstv">Location Settings..</string>
+    <string name="location_dialog_ngtv">Cancel</string>
+    <string name="no_connexion">No data!</string>
+
+    <array name="prayer_names">
+        <item>FAJR</item>
+        <item>SUNRISE</item>
+        <item>ZUHR</item>
+        <item>ASR</item>
+        <item>SUNSET</item>
+        <item>MAGHRIB</item>
+        <item>ISHA\'</item>
+    </array>
+
+    <!-- main page -->
+    <string name="morning">Morning zikr</string>
+    <string name="evening">Evening zikr</string>
+    <string name="calendar">Calendar</string>
+    <string name="prayer">Prayer times</string>
+
+    <!-- Calendar Page -->
+    <string name="sunday">SUNDAY</string>
+    <string name="monday">MONDAY</string>
+    <string name="tuesday">TUESDAY</string>
+    <string name="wednesday">WEDNESDAY</string>
+    <string name="thursday">THURSDAY</string>
+    <string name="friday">FRIDAY</string>
+    <string name="saturday">SATURDAY</string>
+
+    <!-- Contact Page Strings -->
+
+
+    <!-- About Page Strings -->
+    <string name="logo_des">the little mountain logo</string>
+    <string name="license">Open source licenses</string>
+    <string name="gg_link_desc">link to the google plus page of the application</string>
+    <string name="fb_link_desc">link to the facebook page of the application</string>
+    <string name="tw_link_desc">link to the twitter page of the application</string>
+    <string name="share_app_text">SHARE THE APP</string>
+    <string name="rate_app_text">RATE THE APP</string>
+    <string name="app_version">Zikr 1.4.1</string>
+    <string name="company_name">by The Little Mountain®</string>
+    <string name="share_app">Al Salam alaykoum, Try this Islamic Application</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

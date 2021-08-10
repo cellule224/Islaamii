@@ -1,0 +1,2 @@
+include ':hijriCalendarLibrary'
+include ':app'
